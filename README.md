@@ -25,6 +25,8 @@ I also found this site while stumbling, haven't looked into it too much yet thou
 HOW TO USE:
 ===========
 It's a pretty standard HTML imagemap...?<br />
+Getting an imagemap out of SVG files is a little more complicated, but there's a little known feature wherein if you attach a URL to a path (fully closed path btw, and it's under Attributes, you can choose rectangle or polygon) in Illustrator, then do Save for Web, and view the Preview, you'll get generated imagemap code in the browser preview :)<br />
+There are some issues w/ saving these URLs for some reason, where imagemap polygons get converted to rectangles for some reason, so you can't really save your progress, which sucks, but hey.<br />
 The ImageMapster is:
 ```
 $(document).ready(function() {
